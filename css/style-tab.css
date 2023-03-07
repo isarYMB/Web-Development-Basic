@@ -1,0 +1,364 @@
+@media screen and (max-width: 1300px) {
+    
+    .container {
+        margin: auto;
+        width: 768px; 
+        
+    }
+
+    .container1 {
+        margin: auto;
+        width: 768px; 
+        
+    }
+
+    .container4 {
+        margin: auto;
+        width: 768px;
+    }
+
+    .container2 {
+        margin: auto;
+        width: 768px;
+    }
+
+    .container4 {
+        margin: auto;
+        width: 768px;
+    }
+
+    @media screen and (min-height: 1024px) {
+        .query1024 {
+            padding-top: 160px;
+        }
+    }
+
+    @media screen and (min-height: 1366px) {
+        .query1366 {
+            padding-top: 300px;
+        }
+    }
+
+    nav {
+        position: fixed;
+        top:0;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        padding-top:20px;
+        box-sizing:border-box;
+        transition: .5s ease-in-out;
+    }
+
+    nav li {
+        display: flex;
+        list-style-type: none;
+        margin-right: 20px;
+        line-height: 35px;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+        padding-top: 10px;
+    }
+
+    nav .logo img{
+        padding-left: 50px;
+        transition: .5s ease-in-out;
+    }
+
+    .photo12 {
+        height: 250px;
+    }
+
+    .photo1 {
+
+        padding-top: 140px;
+        float: right;
+        padding-right: 80px;
+    }
+    
+    .wlcm {
+        padding-top:150px;
+        font-family: 'gtmd';
+        font-size: 87px;
+        padding-left: 50px;
+    }
+
+    .button11 {
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+    .button1 {
+        margin-left: 0px;
+    }
+
+
+    .hai {
+        font-family: 'gtlight';
+        font-size: 25px;
+        color: white;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .web {
+        font-family: 'gtlight';
+        font-size: 35px;
+        color: white;
+        margin-left: 15px;
+        padding-top: 25px;
+        overflow: hidden;
+        padding-left: 10px;
+    }
+
+    .garis {
+        float: left;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .latar2{
+        background: url(background-tab/about.png) no-repeat;
+        width: 100%;
+        height: 2024px;
+        background-position: center;
+    }
+
+    .float-right {
+        float: none;
+    }
+
+    .float-left {
+        float: none;
+    }
+
+
+    .about {
+        font-family: 'gtblack';
+        text-align: center;
+        padding-right:145px;
+        padding-top: 20px;
+        font-size: 56px;
+        color: #070B24;
+        float: right;
+    }
+
+    .who {
+        font-family: 'gtthin';
+        text-align: left;
+        padding-top: 940px;
+        font-size: 33px;
+        color: white;
+        margin-left: 325px;
+    }
+
+    .name {
+        font-family: 'gtmd';
+        text-align: left;
+        padding-top: 35px;
+        font-size: 32px;
+        color: #070B24;
+        margin-left: 210px;
+    }
+
+    .tabel1 {
+        float: none;
+        padding-top:50px;
+        margin-left: 170px;
+    }
+
+
+    .titik1 {
+        padding-bottom: 5px;
+    }
+    
+    .titik2 {
+        padding-top: 0px;
+        margin-right: 03px;
+    }
+
+    .media {
+        font-family: 'gtthin';
+        text-align: none;
+        padding-top: 140px;
+        font-size: 33px;
+        color: red;
+        padding-right: 300px;
+    }
+
+    .skills {
+        font-size: 32px;
+        font-family: 'gtmd';
+        color:#070B24;
+        text-align: left;
+        padding-top: 25px;
+    }
+
+    .tabel2 {
+        padding-top: 50px;
+        float:none;
+    }
+
+    .latar3 {
+        background:url(background-tab/service.png) 
+        no-repeat;
+        width: 100%;
+        height: 1058px;
+        background-position: center;
+    }
+
+    .saya {
+        color: #DBDBDB;
+        padding-left: 0px;
+        padding-top: 40px;
+        font-family: 'gtthin';
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .media {
+        font-family: 'gtthin';
+        text-align: left;
+        padding-top: 95px;
+        font-size: 33px;
+        color: white;
+        margin-left: 355px;
+    }
+    
+    .skills {
+        font-size: 32px;
+        font-family: 'gtmd';
+        color:#070B24;
+        text-align: left;
+        padding-top:37px;
+        padding-left: 310px;
+    }
+
+    .tabel2 {
+        padding-top: 60px;
+        float:none;
+        padding-left: 260px;
+    }
+
+    .service {
+        font-family: 'gtblack';
+        font-size: 56px;
+        color: #070B24;
+        text-align: center;
+        padding-top: 128px;
+    }
+
+    .container-flex2 {
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    
+    }
+
+    .card {
+        background-color: white;
+        width: 240px;
+        height: 320px;
+        margin: 50px;
+        border-radius: 0px;
+        transition:  200ms ease-in-out;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .card {
+            background-color: white;
+            width: 240px;
+            height: 320px;
+            margin: 20px;
+            border-radius: 0px;
+            transition:  200ms ease-in-out;
+        }
+        .hire{
+            font-family: 'gtblack';
+            font-size: 56px;
+            color: #FFF700;
+            text-align: center;
+            padding-top: 140px;
+            padding-bottom: 50px;
+        }
+    }
+
+
+    .lorem1 {
+    font-family: 'gtthin';
+    font-size: 25px;
+    color: #DBDBDB;
+    padding-left: 30px;
+    text-align: left;
+}
+
+    .lorem2 {
+        font-family: 'gtthin';
+        font-size: 25px;
+        color: #DBDBDB;
+        padding-right: 30px;
+        text-align: right;
+    }
+
+    .hire1 {
+        margin: auto;
+        padding-top: 0px;
+        width: 700px;
+    }
+
+    aside {
+        padding-left: 250px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+
+    .latar5 {
+        background: url(background-tab/contact.png)
+        no-repeat center;
+        width: 100%;
+        height: 780px;
+        margin-bottom: 400px;
+    }
+    
+    .input-contact3{
+        float: none;
+        padding-top: 80px;
+        padding-left: 0px;
+        padding-right: 0;
+        display: inline;
+    }
+
+    .input-contact {
+        display: none;
+    }
+
+    .input-contact2 {
+        display: none;
+    }
+
+    .email {
+        font-size: 17px;
+        font-family: 'gtregular';
+        color: white;
+        padding-bottom: 18px;
+        
+    }
+
+    .nama-in3 {
+        height: 50px;
+        border-radius: 16px;
+        border: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0px;
+        font-family: 'gtbold';
+        font-size: 17px;
+        color: #070B24;
+        margin-bottom: 20px;
+    }
+
+}
